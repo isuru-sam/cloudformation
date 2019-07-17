@@ -1,0 +1,13 @@
+# serverless.yml 
+service: my-service
+provider:   
+  name: aws   
+  region: ap-south-1
+  runtime: nodejs10.x
+functions:
+  hello:
+    handler: handler.hello
+    events: # uncomment these lines
+      - http:
+          path: hello/get
+          method: get
