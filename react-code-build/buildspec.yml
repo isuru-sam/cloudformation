@@ -8,6 +8,7 @@ phases:
       - npm i npm@latest -g
       - pip install --upgrade pip
       - pip install --upgrade awscli
+      - cd react-code-build
   pre_build:
     commands:
       - npm install
