@@ -19,6 +19,7 @@ phases:
       - mkdir artifacts
       - mkdir artifacts/dev
       - ls -ls
+      - cd serverless
       - serverless package --package artifacts/dev --stage dev -v
 
   post_build:
