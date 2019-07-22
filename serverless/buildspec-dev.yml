@@ -29,8 +29,8 @@ phases:
 
 artifacts:
  files:
-   - artifacts/**/*
-   - serverless.yml
+   - serverless/artifacts/**/*
+   - seerverless/serverless.yml
    - deploy.sh
    - package.json
    - package-lock.json
