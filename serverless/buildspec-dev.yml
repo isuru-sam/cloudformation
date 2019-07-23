@@ -34,3 +34,4 @@ artifacts:
    - serverless/deploy.sh
    - serverless/package.json
    - serverless/package-lock.json
+   - serverless/serverless-state.json
